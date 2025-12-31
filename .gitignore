@@ -8,6 +8,16 @@ nul
 *.swo
 *~
 
+# IDE
+.vscode/
+.idea/
+
+# Node modules
+node_modules/
+
 # Nested git repositories
 01.ip/01.spicyjump/.git
 02.it/04.prompter-lab/.git
+
+# Research logs are intentionally tracked for evidence
+# research-logs/
