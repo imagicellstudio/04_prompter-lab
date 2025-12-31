@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: UTF-8 인코딩 전면 적용 및 한글 깨짐 방지 설정\n\n변경 내용:\n- .gitattributes: 모든 텍스트 파일 UTF-8 인코딩 강제\n- .editorconfig: 에디터 레벨 UTF-8 설정 추가\n- Git 로컬 설정: UTF-8 커밋 인코딩 설정\n- scripts/ensure_utf8.py: 자동 UTF-8 변환 스크립트 추가\n- UTF8_ENCODING_GUIDE.md: 인코딩 가이드 문서 추가\n- 빈 파일들 UTF-8로 초기화\n\n목적:\n- 한글 깨짐 완전 방지\n- Git 커밋 시 인코딩 문제 해결\n- 크로스 플랫폼 호환성 보장\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push)"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+nul
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Nested git repositories
+01.ip/01.spicyjump/.git
+02.it/04.prompter-lab/.git
